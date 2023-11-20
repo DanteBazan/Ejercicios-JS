@@ -73,7 +73,7 @@ function imprimirPalabra(palabra, cantidad) {
   }
 }
 
-imprimirPalabra("lucho", 7);
+imprimirPalabra("lucho", 10);
 
 console.log("----------------------------");
 
@@ -90,3 +90,8 @@ functionArray(miArray);
 //NO SE SI ESTA BIEN ECHO JAJA, PERO MASO MENOS LO HICE ASI JAJA.
 
 console.log("----------------------------");
+
+//EJERCICIO 7
+console.log("Ejercicio 7");
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
