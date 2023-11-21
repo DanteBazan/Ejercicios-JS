@@ -1,4 +1,4 @@
-//EJERCICIO 1
+///EJERCICIO 1
 
 console.log("Ejercicio numero 1");
 
@@ -62,25 +62,18 @@ console.log("-----------------------------");
 //EJERCICIO 5
 console.log("Ejercicio 5");
 
-function imprimirPalabra(palabra, cantidad) {
-  if (typeof cantidad !== "number") {
-    console.log("Por favor, proporciona un valor numérico para 'cantidad'");
-    return;
-  }
-
-  for (let i = 0; i < cantidad; i++) {
-    console.log(palabra);
-  }
+function frases(frase, cantidad) {
+  for (let i = 0; i <= cantidad; i++) console.log(frase);
 }
 
-imprimirPalabra("lucho", 10);
+frases("laucha", 10);
 
 console.log("----------------------------");
 
 //EJERCICIO 6
 console.log("Ejercicio 6");
 
-const miArray = ["Dante", "Lucho", "Erick", "Marcelo", "Ale"];
+const miArray = ["Dante", "Lucho", "Erick", "Marcelo", "Ale", "Laucha"];
 
 function functionArray(miArray) {
   console.log(miArray);
@@ -94,4 +87,33 @@ console.log("----------------------------");
 //EJERCICIO 7
 console.log("Ejercicio 7");
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const array = (numeros) => {
+  for (numero of numeros) {
+    if (numero == 4) {
+      continue;
+    }
+    console.log(numero);
+  }
+};
+
+let contador = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+array(contador);
+
+console.log("--------------------------");
+//EJERCICIO 8
+console.log("Ejercicio 8");
+
+function arrayy(numeros, num) {
+  for (numero of numeros) {
+    let result = numero * num;
+    console.log(result);
+  }
+}
+
+let numerosDeArray = [2, 3, 4, 5, 6, 7, 8, 9, 10];
+let numeroMultiplicador = 3;
+
+arrayy(numerosDeArray, numeroMultiplicador);
+console.log("----------------------");
+console.log("Me costo una banda");
